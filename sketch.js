@@ -25,7 +25,7 @@ function setup() {
 }
 
 function listening() {
-    console.log('listening');
+    console.log('app is listening');
 
     pitch = ml5.pitchDetection(
         model_url,
